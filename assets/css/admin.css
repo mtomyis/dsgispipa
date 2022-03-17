@@ -1,0 +1,73 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {margin-top: 30px;
+}
+footer {
+  position: absolute;
+  /*bottom: 0;*/
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container-fluid {
+padding: 0px 15px 0;
+}
+
+
+.table-heading thead tr {
+  background-color: #f0f0f0;
+  background-image: -webkit-linear-gradient(top, #f0f0f0, #dfdfdf);
+  background-image:    -moz-linear-gradient(top, #f0f0f0, #dfdfdf);
+  background-image:     -ms-linear-gradient(top, #f0f0f0, #dfdfdf);
+  background-image:      -o-linear-gradient(top, #f0f0f0, #dfdfdf);
+  background-image:         linear-gradient(to bottom, #f0f0f0, #dfdfdf);
+}
+/*editan css bootsrap default*/
+.page-header {
+padding-bottom: 0px;
+margin: 0px 0 0px;
+border-bottom: 1px solid #eee;
+text-align: center;
+}
+
+.alert{
+  padding: 2px;
+  margin-bottom: 5px;
+}
+.form-group{
+  margin-bottom: 5px;
+}
+.pagination{
+  margin: 0px;
+}
+.form-control{
+  height: 28px;
+  padding: 4px 8px;
+}
+.table-condensed>thead>tr>th, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>tbody>tr>td, .table-condensed>tfoot>tr>td {
+padding: 4px;
+}
+tbody{
+  font-size: 13px;
+}
+.table{
+  margin-bottom: 25px;
+}
+/*perubahan untuk icon feedback*/
+.form-control-feedback{
+  line-height: 28px;
+}

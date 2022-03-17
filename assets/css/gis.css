@@ -1,0 +1,302 @@
+/*editan bootstap wajib*/
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 40px;
+  background: rgba(32, 139, 118, 0.02);
+}
+footer {
+  position: absolute;
+  /*bottom: 0;*/
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  border-color: #080808;
+  color: #fff;
+}
+
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+    color : #333;
+}
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container-fluid {
+padding: 0px 15px 0;
+}
+
+
+.table-heading thead tr {
+  background-color: #f0f0f0;
+  background-image: -webkit-linear-gradient(top, #f0f0f0, #dfdfdf);
+  background-image:    -moz-linear-gradient(top, #f0f0f0, #dfdfdf);
+  background-image:     -ms-linear-gradient(top, #f0f0f0, #dfdfdf);
+  background-image:      -o-linear-gradient(top, #f0f0f0, #dfdfdf);
+  background-image:         linear-gradient(to bottom, #f0f0f0, #dfdfdf);
+}
+/*editan css bootsrap default*/
+.page-header {
+padding-bottom: 0px;
+margin: 0px 0 0px;
+border-bottom: 1px solid #eee;
+text-align: center;
+}
+
+.alert{
+  padding: 2px;
+  margin-bottom: 5px;
+}
+.form-group{
+  margin-bottom: 5px;
+}
+.pagination{
+  margin: 0px;
+}
+.form-control{
+  height: 28px;
+  padding: 4px 8px;
+}
+.table-condensed>thead>tr>th, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>tbody>tr>td, .table-condensed>tfoot>tr>td {
+padding: 4px;
+}
+tbody{
+  font-size: 13px;
+}
+.table{
+  margin-bottom: 5px;
+}
+/*perubahan untuk icon feedback*/
+.form-control-feedback{
+  line-height: 28px;
+}
+/*akhir editan bootstap wajib*/
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+ {
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+section#data-hippam{
+    padding-top: 10px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    background: url(../img/cc.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.logo{
+  float: left;
+}
+
+.logo img{
+
+}
+
+form.rapat .form-group{
+  margin-bottom: 5px;
+}
+
+.table-heading thead tr {
+  background-color: #f0f0f0;
+  background-image: -webkit-linear-gradient(top, #f0f0f0, #dfdfdf);
+  background-image:    -moz-linear-gradient(top, #f0f0f0, #dfdfdf);
+  background-image:     -ms-linear-gradient(top, #f0f0f0, #dfdfdf);
+  background-image:      -o-linear-gradient(top, #f0f0f0, #dfdfdf);
+  background-image:         linear-gradient(to bottom, #f0f0f0, #dfdfdf);
+}
+
+.table-heading thead tr th{
+  vertical-align:middle;
+  text-align: center;
+}
+.table-scroll tr {
+width: 100%;
+display: inline-table;
+}
+
+.table-scroll {
+ height:450px; 
+}
+.table-scroll tbody{
+  overflow-y: scroll;
+  height: 430px;
+  width: 95%;
+  position: absolute;
+}
+
+.section-subheading{
+    background: #9B9B9B;
+    color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+}
+
+.well{
+    background-color: rgba(245, 245, 245, 0.55);
+}
+
+.box{
+    display: block;
+  z-index: 1999;
+  position: relative;
+  border: 1px solid #f8f8f8;
+  box-shadow: 0 0 9px #D8D8D8;
+  background: white;
+  margin-bottom: 20px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.legenda{
+    margin-bottom: -15px;
+}
+
+.garis-legenda{
+  padding-bottom: 10px;
+}
+.garis-legenda-kotak{
+  padding-top: -80px;
+}
+
+.legenda-kotak{
+  margin-left: 15px;
+}
+
+li div.form-group{
+  margin-top: -25px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #fed136;
+}
+.panel-gis {
+  border-color: #9B9B9B;
+}
+.panel-gis > .panel-heading {
+  color: #fff;
+  background-color: #9B9B9B;
+  border-color: #9B9B9B;
+}
+.panel-gis > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #9B9B9B;
+}
+.panel-gis > .panel-heading .badge {
+  color: #9B9B9B;
+  background-color: #fff;
+}
+.panel-gis > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #9B9B9B;
+}
+
+.nav>li>a {
+background: #fff;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus,
+.nav>li>a:active {
+    background-color: #9B9B9B;
+    color:#fff;
+    cursor: pointer;
+}
+
+.align_left{
+    text-align: left;
+}
+.align_right{
+    text-align: right;
+}
+.align_center{
+    text-align: center;
+}
+.valign_middle{
+    vertical-align: middle;
+}
+
+.list_det{
+  float: right;
+  margin-right: 150px;
+}
+.no-padding{
+  /*padding-left: 0px;
+  margin-left: 0px;*/
+}
+.padding-rata{
+  margin-left: -14px;
+}
+.padding-rata2{
+  margin-left: -16px;
+}
+.padding-tambah{
+  margin-left: 12px;
+}
+.padding-tambah2{
+  margin-left: 17px;
+}
